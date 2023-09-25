@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logan Nunn's Game Page</title>
+        <script src="gameCode.js"></script>
+        <link rel="stylesheet"  href="sylegame.css"></link>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to my game page</h1>
+        <nav>
+            <h2> Navigation</h2>
+                <li><a href="./index.html">
+                    Home
+                </a></li>
+                <li><a href="./boards.html">
+                    Boards
+                </a></li>
+        </nav>
+        <h3> Want to play a game?</h3>
+        <h5>The Rules</h5>
+        <ol>
+            <li>Roll 2 dice</li>
+            <li>if the sum of the dice are 7 or 11, you lose</li>
+            <li>If the dice  are equalr to each other (doubles) and even, you win!</li>
+        </ol> 
+        Die 1 Result: <div id=die1Res></div>
+        Die 2 Result: <div id=die2Res></div>
+        Sum Result: <div id=sumRes></div>
+        Final Result: <div id=finRes></div>
+        <button onclick="playGame()">
+            PLAY
+        </button>
+    </body>
+    </html>
